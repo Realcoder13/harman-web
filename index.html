@@ -1,0 +1,466 @@
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harmanjeet Singh — Senior Cloud Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta name="description" content="Harmanjeet Singh — Senior Cloud Architect specializing in Azure, GCP, DevOps, and AI-powered cloud solutions.">
+  <meta property="og:title" content="Harmanjeet Singh — Senior Cloud Architect">
+  <meta property="og:description" content="Designing secure, scalable & AI-powered cloud solutions.">
+  <meta name="theme-color" content="#08090c">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav__logo">HS<span class="dot">.</span></div>
+    <ul class="nav__links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav__burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" onclick="closeMobile()">About</a></li>
+      <li><a href="#experience" onclick="closeMobile()">Experience</a></li>
+      <li><a href="#skills" onclick="closeMobile()">Skills</a></li>
+      <li><a href="#certifications" onclick="closeMobile()">Certifications</a></li>
+      <li><a href="#contact" onclick="closeMobile()">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__bg">
+      <div class="grid-lines"></div>
+      <div class="orb orb--1"></div>
+      <div class="orb orb--2"></div>
+      <div class="orb orb--3"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__badge reveal">Senior Cloud Architect</div>
+      <h1 class="hero__name reveal reveal--delay-1">Harmanjeet<br><span class="stroke-text">Singh</span></h1>
+      <p class="hero__tagline reveal reveal--delay-2">Designing secure, scalable &amp; AI-powered cloud solutions<br>that simplify complexity and empower outcomes.</p>
+      <div class="hero__cta reveal reveal--delay-3">
+        <a href="#experience" class="btn btn--primary">View My Work</a>
+        <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+      </div>
+      <div class="hero__stats reveal reveal--delay-4">
+        <div class="stat">
+          <div class="stat__row"><span class="stat__num" data-count="8">0</span><span class="stat__plus">+</span></div>
+          <span class="stat__label">Years Experience</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__row"><span class="stat__num" data-count="3">0</span></div>
+          <span class="stat__label">Cloud Platforms</span>
+        </div>
+        <div class="stat__divider"></div>
+        <div class="stat">
+          <div class="stat__row"><span class="stat__num" data-count="6">0</span><span class="stat__plus">+</span></div>
+          <span class="stat__label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__scroll">
+      <div class="scroll-indicator">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__left">
+          <div class="section-label reveal">About Me</div>
+          <h2 class="section-title reveal">Architect. Engineer.<br>Problem Solver.</h2>
+          <p class="about__text reveal">From the first time I wrote a line of code, it was clear: technology isn't just a profession — it's my purpose. Along the way, I dove into web development, dissected malware, and turned data into insights.</p>
+          <p class="about__text reveal">Today, I design secure, scalable, and intelligent cloud infrastructures that simplify complexity and empower business outcomes — whether it's building resilient DevOps pipelines, crafting HA/DR strategies, or weaving AI logic into cloud ecosystems.</p>
+          <div class="about__links reveal">
+            <a href="https://www.linkedin.com/in/harman9" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+            <a href="https://www.instagram.com/harmanjeetofficial/" target="_blank" class="social-link">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+              Instagram
+            </a>
+          </div>
+        </div>
+        <div class="about__right reveal">
+          <div class="about__card">
+            <div class="about__card-inner">
+              <div class="about__avatar">
+                <div class="avatar-ring"></div>
+                <div class="avatar-initials">HS</div>
+              </div>
+              <div class="about__location">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Oshawa, Ontario, Canada
+              </div>
+              <div class="about__languages">
+                <span>English</span>
+                <span>Hindi</span>
+                <span>Punjabi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="section experience" id="experience">
+    <div class="container">
+      <div class="section-label reveal">Career Path</div>
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period current">Apr 2025 – Present</span>
+              <span class="timeline__badge">Current</span>
+            </div>
+            <h3 class="timeline__role">Senior I&amp;IT Architect</h3>
+            <div class="timeline__company">Public &amp; Business Services &amp; Procurement · Oshawa, ON</div>
+            <ul class="timeline__bullets">
+              <li>Shaping cloud adoption and migration strategy aligned with business goals</li>
+              <li>Creating and optimizing architectural solutions for scalability, reliability &amp; cost-efficiency</li>
+              <li>Establishing cloud design principles, standards, and best practices org-wide</li>
+              <li>Designing security protocols, DR procedures, and data protection strategies</li>
+              <li>Monitoring and optimizing cloud costs; managing cloud service provider relationships</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period">Apr 2023 – Mar 2025</span>
+            </div>
+            <h3 class="timeline__role">Senior I&amp;IT Architect</h3>
+            <div class="timeline__company">Treasury Board Secretariat · Toronto, ON</div>
+            <ul class="timeline__bullets">
+              <li>Designed cloud architectures using Power Designer for private, public, and hybrid cloud models</li>
+              <li>Developed a library of documented cloud design patterns based on the HUIT application portfolio</li>
+              <li>Defined optimal design patterns for high availability and disaster recovery</li>
+              <li>Contributed to DevOps development activities and complex deployment tasks</li>
+              <li>Led scope definition, requirements analysis, functional &amp; technical design</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period">Jan 2022 – Apr 2023</span>
+            </div>
+            <h3 class="timeline__role">Cloud Developer II</h3>
+            <div class="timeline__company">TELUS · Montreal, QC</div>
+            <ul class="timeline__bullets">
+              <li>Worked with GCP services: Compute Engine, App Engine, Cloud Functions, GKE, Cloud Run</li>
+              <li>Managed storage &amp; database solutions: Cloud SQL, Spanner, Bigtable, Cloud Storage</li>
+              <li>Led on-prem to GCP and AWS to GCP migration projects including cost optimization</li>
+              <li>Built and managed Terraform-based infrastructure provisioning</li>
+              <li>Deep troubleshooting of latency, VPC, VPN connectivity, and security issues</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period">Jul 2021 – Dec 2021</span>
+            </div>
+            <h3 class="timeline__role">Web Developer</h3>
+            <div class="timeline__company">Building Blocks Peer Mentoring · Toronto, ON</div>
+            <ul class="timeline__bullets">
+              <li>Built reusable React.js components with TypeScript, GraphQL, HTML5, CSS3</li>
+              <li>Wrote unit and E2E tests, optimized performance with lazy loading &amp; state management</li>
+              <li>Integrated RESTful and GraphQL APIs with dynamic front-end components</li>
+              <li>Applied Agile/Scrum practices with CI/CD pipelines (Jenkins / GitHub Actions / Azure DevOps)</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+            <div class="timeline__line"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period">Sep 2018 – Nov 2019</span>
+            </div>
+            <h3 class="timeline__role">Cloud Analyst</h3>
+            <div class="timeline__company">Hanu Software · Noida, India</div>
+            <ul class="timeline__bullets">
+              <li>Designed and optimized scalable cloud solutions on Microsoft Azure (IaaS, PaaS)</li>
+              <li>Led on-premises to Azure migration projects from assessment through execution</li>
+              <li>Automated infrastructure deployment using ARM templates, PowerShell, and Terraform</li>
+              <li>Built Power BI dashboards for real-time infrastructure performance &amp; cost visibility</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal">
+          <div class="timeline__marker">
+            <div class="timeline__dot"></div>
+          </div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__period">Jan 2018 – Mar 2018</span>
+            </div>
+            <h3 class="timeline__role">Data Analyst</h3>
+            <div class="timeline__company">EXL · Noida, India</div>
+            <ul class="timeline__bullets">
+              <li>Performed data modeling, reporting, and BI dashboards using Power BI and Excel</li>
+              <li>Worked with MySQL, Azure SQL Data Warehouse for data warehouse solutions</li>
+              <li>Conducted data mining and pattern/trend identification for business insights</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="section-label reveal">Expertise</div>
+      <h2 class="section-title reveal">Skills &amp; Technologies</h2>
+      <div class="skills__grid">
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"/></svg>
+          </div>
+          <h3>Cloud Platforms</h3>
+          <div class="skill-tags">
+            <span>Microsoft Azure</span>
+            <span>Google Cloud Platform</span>
+            <span>IaaS / PaaS</span>
+            <span>Multi-Cloud</span>
+            <span>Hybrid Cloud</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Architecture &amp; DevOps</h3>
+          <div class="skill-tags">
+            <span>Cloud Architecture</span>
+            <span>CI/CD Pipelines</span>
+            <span>Terraform</span>
+            <span>Docker / Kubernetes</span>
+            <span>GKE / Cloud Run</span>
+            <span>Azure DevOps</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+          </div>
+          <h3>Security &amp; Governance</h3>
+          <div class="skill-tags">
+            <span>Cloud Security</span>
+            <span>IAM &amp; Compliance</span>
+            <span>Disaster Recovery</span>
+            <span>HA Strategies</span>
+            <span>Data Protection</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+          </div>
+          <h3>Databases &amp; Storage</h3>
+          <div class="skill-tags">
+            <span>Cloud SQL</span>
+            <span>Cloud Spanner</span>
+            <span>Cloud Bigtable</span>
+            <span>Azure SQL</span>
+            <span>MySQL</span>
+            <span>NoSQL</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>
+          </div>
+          <h3>AI &amp; Data</h3>
+          <div class="skill-tags">
+            <span>Artificial Intelligence</span>
+            <span>Machine Learning</span>
+            <span>Generative AI</span>
+            <span>LLMs</span>
+            <span>Power BI</span>
+            <span>Data Analysis</span>
+          </div>
+        </div>
+
+        <div class="skill-card reveal">
+          <div class="skill-card__icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+          </div>
+          <h3>Development</h3>
+          <div class="skill-tags">
+            <span>React.js</span>
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>GraphQL</span>
+            <span>Python</span>
+            <span>PowerShell</span>
+            <span>ARM Templates</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="section certifications" id="certifications">
+    <div class="container">
+      <div class="section-label reveal">Credentials</div>
+      <h2 class="section-title reveal">Certifications</h2>
+      <div class="certs__grid">
+        <div class="cert-card reveal">
+          <div class="cert-card__logo microsoft">M</div>
+          <div class="cert-card__info">
+            <h4>Azure AI Fundamentals</h4>
+            <span>Microsoft · AI-900</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-card__logo google">G</div>
+          <div class="cert-card__info">
+            <h4>Associate Cloud Engineer</h4>
+            <span>Google Cloud · ACE</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-card__logo google">G</div>
+          <div class="cert-card__info">
+            <h4>Generative AI Fundamentals</h4>
+            <span>Google Cloud · Skill Badge</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-card__logo google">G</div>
+          <div class="cert-card__info">
+            <h4>Introduction to Large Language Models</h4>
+            <span>Google Cloud</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-card__logo google">G</div>
+          <div class="cert-card__info">
+            <h4>Transformer Models &amp; BERT</h4>
+            <span>Google Cloud</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-card__logo google">G</div>
+          <div class="cert-card__info">
+            <h4>Attention Mechanism</h4>
+            <span>Google Cloud</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="section education" id="education">
+    <div class="container">
+      <div class="section-label reveal">Academic Background</div>
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu__grid">
+        <div class="edu-card reveal">
+          <div class="edu-card__year">Canada</div>
+          <h3>Web Design &amp; Development<br><span>Computer Engineering</span></h3>
+          <div class="edu-card__school">Conestoga College</div>
+        </div>
+        <div class="edu-card reveal">
+          <div class="edu-card__year">India</div>
+          <h3>Bachelor of Technology<br><span>Computer Science</span></h3>
+          <div class="edu-card__school">Dr. A.P.J. Abdul Kalam Technical University</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="contact__inner">
+        <div class="section-label reveal">Let's Connect</div>
+        <h2 class="section-title reveal">Ready to build something<br><span class="stroke-text">extraordinary?</span></h2>
+        <p class="contact__sub reveal">Whether it's a cloud migration, an AI-powered platform, or a complex architecture challenge — I'd love to hear from you.</p>
+        <div class="contact__links reveal">
+          <a href="mailto:Harmanjeet96@outlook.com" class="contact-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Harmanjeet96@outlook.com
+          </a>
+          <a href="https://www.linkedin.com/in/harman9" target="_blank" class="contact-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            linkedin.com/in/harman9
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__logo">HS<span class="dot">.</span></div>
+        <p class="footer__copy">© 2025 Harmanjeet Singh. Designed with purpose.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
